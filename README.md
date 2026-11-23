@@ -51,7 +51,7 @@ The reporting date is capped at **December 31, 2025**. Backlog measures evaluate
 
 ## Reproducing or exploring the report
 
-The Power BI report is available at [`powerbi/OPS_Intelligence.pbix`](powerbi/OPS_Intelligence.pbix) and the synthetic source workbook at [`data/Operations_Dataset.xlsx`](data/Operations_Dataset.xlsx). Open the PBIX in Power BI Desktop. If Power Query requests a local Excel path, point the source to the included workbook and refresh. Verify all five portfolio pages after refreshing. **Before public upload:** review the additional `Final QA` report page (currently not marked hidden) and confirm no local connection paths or unintended content remain. Interactive Power BI Service hosting is not configured by this repository.
+The Power BI report is available at [`powerbi/OPS_Intelligence.pbix`](powerbi/OPS_Intelligence.pbix) and the synthetic source workbook at [`data/Operations_Dataset.xlsx`](data/Operations_Dataset.xlsx). Open the PBIX in Power BI Desktop. If Power Query requests a local Excel path, point the source to the included workbook and refresh. Verify all five portfolio pages after refreshing. The final PBIX includes five visible portfolio pages and two hidden validation pages; the temporary `Final QA` page was removed before repository publication. Interactive Power BI Service hosting is not configured by this repository.
 
 ## Responsible use
 
@@ -59,4 +59,4 @@ All work orders are synthetic. These figures illustrate analytical methods and a
 
 ## Project status
 
-Five portfolio pages passed user-executed functional QA and a self-reported 20-point release review. Static inspection of the PBIX also found two hidden validation pages and an additional `Final QA` page that is not marked hidden; check it in Power BI Desktop before publishing. Public interactive hosting and repository publication have **not yet been performed**.
+Five portfolio pages passed user-executed functional QA and a self-reported 20-point release review. The final PBIX includes five visible portfolio pages and two hidden validation pages; the temporary `Final QA` page was removed. This GitHub repository is publicly published. Interactive Power BI Service hosting has not yet been configured.
